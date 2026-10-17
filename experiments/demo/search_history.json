@@ -1,0 +1,72 @@
+[
+  {
+    "generation": 0,
+    "hypervolume": 88506666207.36417,
+    "mean_acc": 83.48533333333333,
+    "best_acc": 88.50666666666667,
+    "front_size": 11
+  },
+  {
+    "generation": 1,
+    "hypervolume": 89659999512.40894,
+    "mean_acc": 83.18633333333332,
+    "best_acc": 89.66,
+    "front_size": 20
+  },
+  {
+    "generation": 2,
+    "hypervolume": 89659999518.97688,
+    "mean_acc": 83.55433333333332,
+    "best_acc": 89.66,
+    "front_size": 23
+  },
+  {
+    "generation": 3,
+    "hypervolume": 89899999514.00838,
+    "mean_acc": 83.75166666666667,
+    "best_acc": 89.9,
+    "front_size": 25
+  },
+  {
+    "generation": 4,
+    "hypervolume": 89899999520.51926,
+    "mean_acc": 84.17366666666666,
+    "best_acc": 89.9,
+    "front_size": 24
+  },
+  {
+    "generation": 5,
+    "hypervolume": 91579999461.55264,
+    "mean_acc": 84.85266666666665,
+    "best_acc": 91.58,
+    "front_size": 28
+  },
+  {
+    "generation": 6,
+    "hypervolume": 91579999462.02577,
+    "mean_acc": 85.57133333333334,
+    "best_acc": 91.58,
+    "front_size": 22
+  },
+  {
+    "generation": 7,
+    "hypervolume": 91579999463.92503,
+    "mean_acc": 85.45133333333334,
+    "best_acc": 91.58,
+    "front_size": 22
+  },
+  {
+    "generation": 8,
+    "hypervolume": 91579999476.20026,
+    "mean_acc": 85.24833333333333,
+    "best_acc": 91.58,
+    "front_size": 25
+  },
+  {
+    "generation": 9,
+    "hypervolume": 91579999481.17575,
+    "mean_acc": 85.95366666666668,
+    "best_acc": 91.58,
+    "front_size": 24
+  }
+]

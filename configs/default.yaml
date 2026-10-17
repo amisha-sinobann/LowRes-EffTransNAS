@@ -1,0 +1,51 @@
+# Default configuration for LowRes-EffTransNAS
+
+model:
+  vocab_size: 32000
+  max_seq_len: 512
+  max_depth: 12
+  max_dim: 768
+  max_heads: 12
+  max_ratio: 4.0
+  dropout: 0.1
+  window_size: 32
+  pad_idx: 0
+
+search_space:
+  depth_choices: [4, 6, 8, 10, 12]
+  dim_choices: [128, 192, 256, 320, 384, 512, 768]
+  head_choices: [2, 4, 6, 8, 12]
+  ratio_choices: [1.0, 1.5, 2.0, 2.5, 3.0, 4.0]
+  attn_choices: ["softmax", "linear", "sparse-local"]
+
+supernet_training:
+  epochs: 120
+  shrink_epochs: 80
+  start_ratio: 0.8
+  end_ratio: 0.3
+  lr: 5.0e-4
+  weight_decay: 0.01
+  warmup_epochs: 5
+  batch_size: 256
+  mlm_prob: 0.15
+  grad_clip: 1.0
+
+evolutionary_search:
+  population_size: 64
+  generations: 50
+  crossover_prob: 0.5
+  mutation_prob: 0.15
+  early_stop_hv: 0.005
+  early_stop_patience: 5
+
+distillation:
+  epochs: 10
+  lr: 2.0e-5
+  temperature: 2.0
+  alpha: 0.5
+
+evaluation:
+  seq_len: 128
+  latency_device: "cpu"   # paper uses Pixel-class ARM CPU
+  n_latency_runs: 100
+  n_seeds: 3

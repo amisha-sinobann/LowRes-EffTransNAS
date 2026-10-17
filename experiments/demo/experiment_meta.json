@@ -1,0 +1,8 @@
+{
+  "exp_name": "demo",
+  "seed": 42,
+  "device": "cpu",
+  "pop_size": 20,
+  "generations": 10,
+  "created": "2026-10-17T16:24:00.811765"
+}

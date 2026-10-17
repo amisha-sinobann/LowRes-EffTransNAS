@@ -1,0 +1,65 @@
+[
+  {
+    "step": 1,
+    "observation": {
+      "stage": "setup",
+      "pareto_size": 0,
+      "best_acc": 0.0,
+      "best_params": 999.0,
+      "best_latency": 999.0,
+      "hypervolume": 0.0,
+      "generations_done": 0,
+      "notes": "No Pareto front yet"
+    },
+    "action": {
+      "name": "run_search",
+      "params": {
+        "pop_size": 16,
+        "generations": 6
+      },
+      "reason": "No architectures discovered yet \u2013 start evolutionary search"
+    },
+    "outcome": "Search done \u2013 front size 16, best_acc=91.7",
+    "timestamp": "2026-10-17T16:29:29.187284"
+  },
+  {
+    "step": 2,
+    "observation": {
+      "stage": "ablate",
+      "pareto_size": 16,
+      "best_acc": 91.7,
+      "best_params": 4.555776,
+      "best_latency": 7.1446208,
+      "hypervolume": 130.36199496393047,
+      "generations_done": 12,
+      "notes": "front=16 best_acc=91.7"
+    },
+    "action": {
+      "name": "run_ablation",
+      "params": {},
+      "reason": "Collect ablation statistics on attention types & depth"
+    },
+    "outcome": "Ablation saved \u2013 attn types=['linear', 'sparse-local']",
+    "timestamp": "2026-10-17T16:29:29.806656"
+  },
+  {
+    "step": 3,
+    "observation": {
+      "stage": "analyse",
+      "pareto_size": 16,
+      "best_acc": 91.7,
+      "best_params": 4.555776,
+      "best_latency": 7.1446208,
+      "hypervolume": 130.36199496393047,
+      "generations_done": 18,
+      "notes": "front=16 best_acc=91.7"
+    },
+    "action": {
+      "name": "finish",
+      "params": {},
+      "reason": "Research goal satisfied"
+    },
+    "outcome": "GOAL_REACHED",
+    "timestamp": "2026-10-17T16:29:30.571434"
+  }
+]

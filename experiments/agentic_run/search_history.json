@@ -1,0 +1,44 @@
+[
+  {
+    "generation": 0,
+    "hypervolume": 90959999447.35991,
+    "mean_acc": 84.46083333333334,
+    "best_acc": 90.96,
+    "front_size": 10
+  },
+  {
+    "generation": 1,
+    "hypervolume": 90959999484.7199,
+    "mean_acc": 85.82041666666666,
+    "best_acc": 90.96,
+    "front_size": 19
+  },
+  {
+    "generation": 2,
+    "hypervolume": 91699999451.61023,
+    "mean_acc": 85.79166666666667,
+    "best_acc": 91.7,
+    "front_size": 22
+  },
+  {
+    "generation": 3,
+    "hypervolume": 91699999454.57957,
+    "mean_acc": 86.32541666666667,
+    "best_acc": 91.7,
+    "front_size": 19
+  },
+  {
+    "generation": 4,
+    "hypervolume": 91699999465.54195,
+    "mean_acc": 87.56375,
+    "best_acc": 91.7,
+    "front_size": 21
+  },
+  {
+    "generation": 5,
+    "hypervolume": 91699999463.6836,
+    "mean_acc": 86.88041666666668,
+    "best_acc": 91.7,
+    "front_size": 20
+  }
+]
